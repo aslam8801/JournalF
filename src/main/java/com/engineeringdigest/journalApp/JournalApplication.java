@@ -12,5 +12,3 @@ public class JournalApplication {
 
 }
 
-// KWf8OdhqkrWgWIn7
-//  mongodb+srv://journalUser:KWf8OdhqkrWgWIn7@cluster0.qgqmu8h.mongodb.net/?appName=Cluster0
