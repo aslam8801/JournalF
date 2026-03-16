@@ -14,7 +14,7 @@ public class JournalService {
     @Autowired
     private JournalRepository journalRepository;
 
-    public JournalEntry saveEntry(JournalEntry entry){
+    public JournalEntry saveEntry(JournalEntry entry, String username){
         entry.setDate(LocalDateTime.now());
         return journalRepository.save(entry);
     }
